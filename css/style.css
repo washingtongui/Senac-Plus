@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url('../img/Gemini_Generated_Image_6vg74t6vg74t6vg7\ 1.png');
+    background-image: url('/img/background.png');
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -83,4 +83,28 @@ body {
 
 .descricao__texto {
     color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    margin-top: 0.3rem;
+    display: inline-block;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 3rem;
+}
+
+.dispositivos__lista {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.lista__item {
+    font-size: 2rem;
+    color: var(--branco-principal);
 }
